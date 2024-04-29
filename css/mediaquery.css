@@ -1,0 +1,545 @@
+@media all and (max-width:575px) {
+    .home{
+        height: 147vh;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar{
+        position: absolute;
+    }
+    .navbar .logo{
+        width: 100%;
+    }
+    .navbar .navs{
+        width: 100%;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section1{
+        flex-direction: column;
+    }
+    .enjoy{
+        width: 100%;
+        text-align: center;
+    }
+    .anim{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        order: -1;
+        padding: 10px;
+    }
+    .anim img{
+        width: 100%;
+    }
+    .btn1{
+        border-top-left-radius: 30px;
+    }
+    .title .tbakh{
+        flex-direction: column;
+    }
+    .title .tbakh .tbakh1{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .gallery-parent{
+        columns: 1;
+    }
+    .gallery-parent .gallery-item1{
+        margin: 20px;
+    }
+    .container iframe{
+        height: 25rem;
+        padding: 1rem;
+    }
+    
+    .contact-parent .contact-item1{
+        width: 100%;
+        margin: 2%;
+    }
+    .contact form{
+        width: 95%;
+        margin: auto;
+       padding: 0 2rem ;
+     
+    }
+    .form .label1{
+        display: flex;
+        flex-direction: column;        
+    }
+    .form .label1 input{
+      
+        height: 3.5rem;
+        width: 100%;
+        margin: 1rem 0 ;
+        padding: 1.1rem 0;
+    }
+    .form .label2 input{
+        width: 100%;      
+    }
+    .footer .row {
+        padding: 34px 25px;
+    }
+
+    .Mealify {
+        width: 100%;
+        margin-bottom: 20px;    
+    
+    }
+
+    .Mealify h3 {
+        font-size: 20px;   
+    }
+    
+    .Mealify img {
+        width: 8%;
+    
+    }
+    
+    .Mealify p,
+    .Subscribe p {
+        line-height: 2rem;
+        font-size: 20px;
+    }
+    
+    .Subscribe {
+        width: 100%;
+    }
+    
+    .Subscribe h3 {
+        font-size: 1.7rem;
+    }
+    
+    .Subscribe p {
+        width: 100%;
+    }
+    
+    .Subscribe .Subscribe-input {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Subscribe .Subscribe-input input {
+        width: 100%;
+        padding: 0.5rem 1rem;
+        margin: 0.5rem 0;
+    }  
+
+    .Subscribe .quick-links ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+   
+    .Touch {
+
+        width: 100%;
+    }
+    
+    .Touch h3 {
+        font-size: 25px;
+        padding-top:1rem ;
+    }
+    
+
+
+}
+@media all and (min-width:576px) and (max-width:767px) {
+    .home{
+        height: 155vh;
+    }
+    .container{
+        width: 80%;
+        flex-direction: column;
+    }
+    .navbar{
+        position: absolute;
+    }
+    .navbar .logo{
+        width: 100%;
+    }
+    .navbar .navs{
+        width: 100%;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section1{
+        flex-direction: column;
+    }
+    .enjoy{
+        width: 100%;
+        text-align: center;
+    }
+    .enjoy p{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        margin: 20px 0;
+    }
+    .anim{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        order: -1;
+        padding: 20px;
+    }
+    .anim img{
+        width: 90%;
+    }
+    .btn1{
+        border-top-left-radius: 30px;
+    }  
+    .title .tbakh{
+        flex-direction: column;
+    }
+    .title .tbakh .tbakh1{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }  
+    .gallery-parent{
+        columns: 1;
+    }
+    .gallery-parent .gallery-item1{
+        margin: 20px;
+    }
+    .container iframe{
+        height: 25rem;
+        padding: 1rem;
+    }
+    
+    .contact-parent .contact-item1{
+        width: 100%;
+        margin: 2%;
+    }
+    .contact form{
+        width: 95%;
+        margin: auto;
+       padding: 0 2rem ;
+     
+    }
+    .form .label1{
+        display: flex;
+        flex-direction: column;        
+    }
+    .form .label1 input{
+      
+        height: 3.5rem;
+        width: 100%;
+        margin: 1rem 0 ;
+        padding: 1.1rem 0;
+    }
+    .form .label2 input{
+        width: 100%;
+        margin-bottom: 1rem;
+        height: 3.5rem;        
+    }
+     .form  .submit input {
+        padding: 15px 25px;
+    }
+    .row{
+        width: 90%;
+    }
+    .Mealify {
+        width: 100%;
+        margin-bottom: 20px;    
+    
+    }
+
+    .Mealify h3 {
+        font-size: 20px;   
+    }
+    
+    .Mealify img {
+        width: 8%;
+    
+    }
+    
+    .Mealify p,
+    .Subscribe p {
+        line-height: 2rem;
+        font-size: 20px;
+    }
+    
+    .Subscribe {
+        width: 100%;
+    }
+    
+    .Subscribe h3 {
+        font-size: 1.7rem;
+    }
+    
+    .Subscribe p {
+        width: 100%;
+    }
+
+    .Subscribe .quick-links ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+   
+    .Touch {
+
+        width: 100%;
+    }
+    
+    .Touch h3 {
+        font-size: 25px;
+        padding-top:1rem ;
+    }
+}
+@media all and (min-width:768px) and (max-width:991px) {
+    .home{
+        height: 160vh;
+    }
+    .container{
+        width: 95%;
+        flex-direction: column;
+    }
+    .navbar{
+        position: absolute;
+    }
+    .navbar .logo{
+        width: 100%;
+    }
+    .navbar .navs{
+        width: 100%;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section1{
+        flex-direction: column;
+    }
+    .enjoy{
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    .enjoy p{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .anim{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        order: -1;
+    }
+    .anim img{
+        width: 90%;
+    }
+    .btn1{
+        border-top-left-radius: 30px;
+    } 
+    .title .tbakh{
+        flex-wrap: wrap;
+    }
+    .title .tbakh .tbakh1{
+        width: 45%;
+    }  
+    .swr:hover .icons{
+        right: 15px;
+        top: 5%;
+        left: 80%;
+    }
+    .gallery-parent{
+        columns: 2;
+    }
+    .gallery-parent .gallery-item1 .overlay h4{
+        font-size: 20px;
+    
+    }
+    .gallery-parent .gallery-item1 .overlay p{
+        padding: 20px;
+    
+    }
+    .contact form{
+        width: 95%;
+        margin: auto;
+       padding: 0 2rem ;
+     
+    }
+    .form .label1{
+        display: flex;
+        flex-direction: column;        
+    }
+    .form .label1 input{
+      
+        height: 3.5rem;
+        width: 100%;
+        margin: 1rem 0 ;
+        padding: 1.1rem 0;
+    }
+    .form .label2 input{
+        width: 100%;
+        margin-bottom: 1rem;
+        height: 3.5rem;        
+    }
+     .form  .submit input {
+        padding: 15px 25px;
+    }
+    .row{
+        width: 90%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .Mealify {
+        width: 45%;
+        margin-bottom: 20px;
+    
+    }
+
+    .Mealify h3 {
+        font-size: 20px;   
+    }
+    
+    .Mealify img {
+        width: 8%;
+    
+    }
+    
+    .Mealify p,
+    .Subscribe p {
+        line-height: 2rem;
+        font-size: 20px;
+    }
+    
+    .Subscribe {
+        width: 100%;
+        order: 2;
+    }
+    
+    .Subscribe h3 {
+        font-size: 1.7rem;
+    }
+    
+    .Subscribe p {
+        width: 100%;
+    }
+
+    .Subscribe .quick-links ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+   
+    .Touch {
+        width: 50%;
+    }
+    
+    .Touch h3 {
+        font-size: 25px;
+        padding-top:1rem ;
+    }
+
+}
+@media all and (min-width:992px) and (max-width:1400px) {
+    .container{
+        width: 95%;
+    }
+    .home{
+        height: 80vh;
+
+    }
+    .enjoy{
+        width: 50%;
+
+    }
+    .anim{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .anim img{
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .btn1{
+        border-top-left-radius: 30px;
+    }
+    .title .tbakh .tbakh1{
+        width: 50%;
+    }  
+    .swr:hover .icons{
+        right: 15px;
+        top: 5%;
+        left: 77%;
+    }
+    .gallery-parent .gallery-item1{
+        margin: 5px;
+    }
+    .gallery-parent .gallery-item1 .overlay h4{
+        font-size: 20px;
+    
+    }
+    .gallery-parent .gallery-item1 .overlay p{
+        padding: 20px;
+    
+    }
+    .row{
+        width: 90%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .Mealify {
+        width: 45%;
+        margin-bottom: 20px;
+    
+    }
+
+    .Mealify h3 {
+        font-size: 20px;   
+    }
+    
+    .Mealify img {
+        width: 8%;
+    
+    }
+    
+    .Mealify p,
+    .Subscribe p {
+        line-height: 2rem;
+        font-size: 20px;
+    }
+    
+    .Subscribe {
+        width: 100%;
+        order: 2;
+    }
+    
+    .Subscribe h3 {
+        font-size: 1.7rem;
+    }
+    
+    .Subscribe p {
+        width: 100%;
+    }
+
+    .Subscribe .quick-links ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+   
+    .Touch {
+        width: 50%;
+    }
+    
+    .Touch h3 {
+        font-size: 25px;
+        padding-top:1rem ;
+    }
+    
+}
